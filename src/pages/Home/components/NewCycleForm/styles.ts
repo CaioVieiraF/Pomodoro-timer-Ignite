@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const FormContainer = styled.div`
 	width: 100%;
@@ -10,7 +10,7 @@ export const FormContainer = styled.div`
 	font-size: 1.125rem;
 	font-weight: bold;
 	flex-wrap: wrap;
-`;
+`
 
 export const BaseInput = styled.input`
 	background: transparent;
@@ -30,12 +30,12 @@ export const BaseInput = styled.input`
 	&::placeholder {
 		color: ${props => props.theme['gray-500']};
 	}
-`;
+`
 
 export const TaskInput = styled(BaseInput)`
 	flex: 1;
-`;
+`
 
 export const CountdownInput = styled(BaseInput)`
 	width: 4rem;
-`;
+`
